@@ -1,11 +1,14 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFramework>netstandard1.6</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <Description>Wraps Twilio api: accepts encrypted config; decrypts and sends message.</Description>
     <Copyright></Copyright>
+    <RepositoryUrl></RepositoryUrl>
+    <PackageProjectUrl>https://github.com/WenWei/GM.Twilio.AspNet.Core</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/WenWei/GM.Twilio.AspNet.Core/blob/master/LICENSE</PackageLicenseUrl>
   </PropertyGroup>
 
   <ItemGroup>
